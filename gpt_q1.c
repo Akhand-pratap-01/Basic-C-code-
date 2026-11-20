@@ -1,122 +1,122 @@
-// #include <stdio.h>
+#include <stdio.h>
 
-// int main() {
-//     int a, b;
-//     printf("Enter First Number: ");
-//     scanf("%d", &a);
-//     printf("Enter Second Number: ");
-//     scanf("%d", &b);
-//     printf("HERE is your sum : %d", a+b);
-//     return 0;
-// }
-// #include <stdio.h>
+int main() {
+    int a, b;
+    printf("Enter First Number: ");
+    scanf("%d", &a);
+    printf("Enter Second Number: ");
+    scanf("%d", &b);
+    printf("HERE is your sum : %d", a+b);
+    return 0;
+}
+#include <stdio.h>
 
-// int main() {
-//     int a, b;
-//     printf("Enter First Number: ");
-//     scanf("%d", &a);
-//     printf("Enter Second Number: ");
-//     scanf("%d", &b);
-//     printf("HERE is your sum : %d", a+b);
-//     printf("HERE is your sub : %d", a-b);
-//     printf("HERE is your mul : %d", a*b);
-//     printf("HERE is your div : %d", a/b);
-//     printf("HERE is your mod : %d", a%b);
-//     return 0;
-// }
+int main() {
+    int a, b;
+    printf("Enter First Number: ");
+    scanf("%d", &a);
+    printf("Enter Second Number: ");
+    scanf("%d", &b);
+    printf("HERE is your sum : %d", a+b);
+    printf("HERE is your sub : %d", a-b);
+    printf("HERE is your mul : %d", a*b);
+    printf("HERE is your div : %d", a/b);
+    printf("HERE is your mod : %d", a%b);
+    return 0;
+}
 
-// #include <stdio.h>
+#include <stdio.h>
 
-// int main() {
-//     int l, b;
-//     printf("Enter First Number: ");
-//     scanf("%d", &l);
-//     printf("Enter Second Number: ");
-//     scanf("%d", &b);
-//     printf("Here is your area: %d " , l*b);
-//     return 0;
-// }
-// // F = (C × 9/5) + 32
-// #include <stdio.h>
+int main() {
+    int l, b;
+    printf("Enter First Number: ");
+    scanf("%d", &l);
+    printf("Enter Second Number: ");
+    scanf("%d", &b);
+    printf("Here is your area: %d " , l*b);
+    return 0;
+}
+// F = (C × 9/5) + 32
+#include <stdio.h>
 
-// int main() {
-//     int c;
-//     printf("Enter your c value: ");
-//     scanf("%d", &c);
-//     float f = (c * 1.8)+32.0;
-//     printf("Your F is : %.2f", f);
-//     return 0;
-// }
-// #include <stdio.h>
+int main() {
+    int c;
+    printf("Enter your c value: ");
+    scanf("%d", &c);
+    float f = (c * 1.8)+32.0;
+    printf("Your F is : %.2f", f);
+    return 0;
+}
+#include <stdio.h>
 
-// int main() {
-//     int a = 10 , b = 12, temp;
-//     temp = a;
-//     a = b;
-//     b = temp;
-//     printf("A is %d B is %d", a , b);
-//     return 0;
-// }
-// #include <stdio.h>
+int main() {
+    int a = 10 , b = 12, temp;
+    temp = a;
+    a = b;
+    b = temp;
+    printf("A is %d B is %d", a , b);
+    return 0;
+}
+#include <stdio.h>
 
-// int main() {
-//     int a = 10 , b = 12;
-//     a = a+b;
-//     b = a -b;
-//     a = a-b;
-//     printf("a is : %d b is : %d", a , b);
-//     return 0;
-// }
-// // SI = (P × R × T)/100
+int main() {
+    int a = 10 , b = 12;
+    a = a+b;
+    b = a -b;
+    a = a-b;
+    printf("a is : %d b is : %d", a , b);
+    return 0;
+}
+// SI = (P × R × T)/100
 
-// #include <stdio.h>
+#include <stdio.h>
 
-// int main() {
-//     int p, r, t;
-//     printf("Enter First Number: ");
-//     scanf("%d", &p);
-//     printf("Enter Second Number: ");
-//     scanf("%d", &r);
-//     printf("Enter Third Number: ");
-//     scanf("%d", &t);
-//     int SI = (p*r*t)/100;
-//     printf("Your SI is : %d", SI);
-//     return 0;
-// }
-// #include <stdio.h>
+int main() {
+    int p, r, t;
+    printf("Enter First Number: ");
+    scanf("%d", &p);
+    printf("Enter Second Number: ");
+    scanf("%d", &r);
+    printf("Enter Third Number: ");
+    scanf("%d", &t);
+    int SI = (p*r*t)/100;
+    printf("Your SI is : %d", SI);
+    return 0;
+}
+#include <stdio.h>
 
-// int main() {
-//      int p, r, t , a, b ;
-//     printf("Enter First Number: ");
-//     scanf("%d", &p);
-//     printf("Enter Second Number: ");
-//     scanf("%d", &r);
-//     printf("Enter Third Number: ");
-//     scanf("%d", &t);
-//     printf("Enter Forth Number: ");
-//     scanf("%d", &a);
-//     printf("Enter Fivth Number: ");
-//     scanf("%d", &b);
-//     printf("HERE is your Avg : %d ", (a+b+p+r+t)/5);
-//     return 0;
-// }
-// #include <stdio.h>
+int main() {
+     int p, r, t , a, b ;
+    printf("Enter First Number: ");
+    scanf("%d", &p);
+    printf("Enter Second Number: ");
+    scanf("%d", &r);
+    printf("Enter Third Number: ");
+    scanf("%d", &t);
+    printf("Enter Forth Number: ");
+    scanf("%d", &a);
+    printf("Enter Fivth Number: ");
+    scanf("%d", &b);
+    printf("HERE is your Avg : %d ", (a+b+p+r+t)/5);
+    return 0;
+}
+#include <stdio.h>
 
-// int main() {
-//     int a = 2323;
-//     int c = a % 10;
-//     printf("Last Digit is : %d", c);
-//     return 0;
-// }
-// #include <stdio.h>
+int main() {
+    int a = 2323;
+    int c = a % 10;
+    printf("Last Digit is : %d", c);
+    return 0;
+}
+#include <stdio.h>
 
-// int main() {
-//     int a = 4;
-//     float b = 5.002;
-//     float sum = b + (float) a;
-//     printf("%.2f", sum);
-//     return 0;
-// }
+int main() {
+    int a = 4;
+    float b = 5.002;
+    float sum = b + (float) a;
+    printf("%.2f", sum);
+    return 0;
+}
 
 // if else switch
 
